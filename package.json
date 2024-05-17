@@ -1,5 +1,5 @@
 {
-  "name": "rc-checkbox",
+  "name": "rc-checkbox-modern",
   "version": "3.3.0",
   "description": "checkbox ui component for react",
   "keywords": [
@@ -32,7 +32,6 @@
     "gh-pages": "npm run build && father doc deploy -d .docs",
     "lint": "eslint src/ --ext .tsx,.ts",
     "prepare": "husky install && dumi setup",
-    "prepublishOnly": "npm run compile && np --yolo --no-publish",
     "start": "dumi dev",
     "test": "jest"
   },
@@ -47,7 +46,7 @@
   "dependencies": {
     "@babel/runtime": "^7.10.1",
     "classnames": "^2.3.2",
-    "rc-util": "^5.25.2"
+    "rc-util": "npm:rc-util-modern@^5.25.2"
   },
   "devDependencies": {
     "@rc-component/father-plugin": "^1.0.1",
